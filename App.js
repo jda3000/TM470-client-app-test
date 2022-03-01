@@ -47,9 +47,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "600",
   },
-  highlight: {
-    fontWeight: "700",
-  },
   mapContainer: {
     flex: 9,
   },
