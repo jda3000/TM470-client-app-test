@@ -1,6 +1,7 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * Sample React Native App for OU TM470
+ * Author: James Alexander
+ * https://github.com/jda3000/TM470-client-app-test
  *
  * @format
  * @flow strict-local
