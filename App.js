@@ -10,8 +10,6 @@
 import React from "react";
 import type { Node } from "react";
 import {
-  SafeAreaView,
-  ScrollView,
   StyleSheet,
   Text,
   View,
