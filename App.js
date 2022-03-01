@@ -20,8 +20,11 @@ const App: () => Node = () => {
   return (
     <View style={{ flex: 1, flexDirection: "column" }}>
       <View style={styles.headerSection}>
-        <Text style={styles.sectionTitle}>TM470</Text>
-        <Text>React Native Technology Demonstration Application</Text>
+        <Text style={styles.title}>TM470</Text>
+        <Text style={styles.subTitle}>
+          Technology Demonstration Application
+        </Text>
+        <Text style={styles.author}>James Alexander</Text>
       </View>
       <View style={styles.mapContainer}>
         <MapView
@@ -43,9 +46,17 @@ const styles = StyleSheet.create({
     textAlign: "center",
     paddingTop: 20,
   },
-  sectionTitle: {
+  title: {
     fontSize: 24,
     fontWeight: "600",
+  },
+  subTitle: {
+    fontSize: 16,
+    marginTop: 5,
+  },
+  author: {
+    fontStyle: 'italic',
+    marginTop: 5,
   },
   mapContainer: {
     flex: 9,
